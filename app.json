@@ -1,0 +1,19 @@
+{
+  "name": "ML Recommendation Service",
+  "description": "Machine Learning product recommendation service using collaborative filtering and content-based filtering",
+  "repository": "https://github.com/yourusername/your-repo",
+  "keywords": ["flask", "machine-learning", "recommendations", "scikit-learn"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+  "addons": []
+}
+
